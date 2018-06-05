@@ -14,9 +14,9 @@
 ***
 ### Run the system
   #### 1 Build the system  
-    `./gradlew build`
+  `./gradlew build`
     
   #### 2 Run the webservice  
-    `./gradlew appStart`  
-    (Runs at: http://localhost:8080/)
+  `./gradlew appStart`  
+  (Runs at: http://localhost:8080/)
   
