@@ -6,8 +6,8 @@
 
 ## Install Gradle
   ### 1 install sdk  
-    `curl -s "https://get.sdkman.io" | bash`  
-    `source "$HOME/.sdkman/bin/sdkman-init.sh"`
+  `curl -s "https://get.sdkman.io" | bash`  
+  `source "$HOME/.sdkman/bin/sdkman-init.sh"`
   
   ### 2 install Gradle  
   `sdk install gradle 4.7`
