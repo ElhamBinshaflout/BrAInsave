@@ -16,19 +16,17 @@ import model.WelcomeService;
 @Controller
 public class WelcomeController {
 
-	private final Logger logger = LoggerFactory.getLogger(WelcomeController.class);
-	private final WelcomeService helloWorldService;
+	private final WelcomeService welcomeService;
 
 	@Autowired
-	public WelcomeController(WelcomeService helloWorldService) {
-		this.helloWorldService = helloWorldService;
+	public WelcomeController(WelcomeService welcomeService) {
+		this.welcomeService = welcomeService;
 	}
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String index(Map<String, Object> model) {
 
-		logger.debug("index() is executed!");
-		model.put("msg", helloWorldService.getMsg());
+		model.put("msg", welcomeService.getMsg());
 		
 		return "index";
 	}
