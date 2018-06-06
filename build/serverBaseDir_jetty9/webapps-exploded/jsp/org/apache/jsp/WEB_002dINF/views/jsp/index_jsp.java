@@ -48,11 +48,14 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t<head>\r\n");
       out.write("\t\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">\r\n");
       out.write("\t\t<title>Welcome</title>\r\n");
+      out.write("\t\t\r\n");
       out.write("\t</head>\r\n");
       out.write("\t<body>\r\n");
       out.write("\t\tGreeting : ");
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${msg}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("\r\n");
+      out.write("\t\t<br/>\r\n");
+      out.write("\t\t<iframe id=\"Botservice\" src=\"https://webchat.botframework.com/embed/BrIAnsaveBotQnA?s=pxLDKy-qai0.cwA.djw.-jxWojWVoMgjuIXc7mkKsHmnfCgEy4eha-olUSqA7IQ\" height=\"500\" width=\"500\"></iframe>\r\n");
       out.write("\t</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {

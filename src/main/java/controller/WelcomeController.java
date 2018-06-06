@@ -2,6 +2,8 @@ package controller;
 
 import java.util.Map;
 
+import javax.swing.text.View;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,6 +29,8 @@ public class WelcomeController {
 	public String index(Map<String, Object> model) {
 
 		model.put("msg", welcomeService.getMsg());
+		model.put("secret", welcomeService.getSecret());
+		
 		
 		return "index";
 	}
