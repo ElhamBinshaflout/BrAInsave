@@ -1,4 +1,4 @@
-# BrIAnsaveProject
+# BrAInsaveProject
 (currently only instructions for Linux system)
 ***
 ### Install Gradle
