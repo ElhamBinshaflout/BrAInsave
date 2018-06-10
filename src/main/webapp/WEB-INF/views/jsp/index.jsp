@@ -12,8 +12,12 @@
 		<br/>
 		<iframe id="Botservice" src="${secret}" height="500" width="500"></iframe>
 		<br/>
+		sample input img:
+		<br/>
 		<img style="-webkit-user-select: none;" src="${img}">
 		<br/>
-		Face detection result: ${faceDetectionResult}
+		Face detection result: 
+		<br/>
+		${faceDetectionResult}
 	</body>
 </html>
