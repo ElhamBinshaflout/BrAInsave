@@ -55,7 +55,17 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${msg}", java.lang.String.class, (PageContext)_jspx_page_context, null));
       out.write("\r\n");
       out.write("\t\t<br/>\r\n");
-      out.write("\t\t<iframe id=\"Botservice\" src=\"https://webchat.botframework.com/embed/BrIAnsaveBotQnA?s=pxLDKy-qai0.cwA.djw.-jxWojWVoMgjuIXc7mkKsHmnfCgEy4eha-olUSqA7IQ\" height=\"500\" width=\"500\"></iframe>\r\n");
+      out.write("\t\t<iframe id=\"Botservice\" src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${secret}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\" height=\"500\" width=\"500\"></iframe>\r\n");
+      out.write("\t\t<br/>\r\n");
+      out.write("\t\t<img style=\"-webkit-user-select: none;\" src=\"");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${img}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\">\r\n");
+      out.write("\t\t<br/>\r\n");
+      out.write("\t\tFace detection result: ");
+      out.write((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("${faceDetectionResult}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+      out.write("\r\n");
       out.write("\t</body>\r\n");
       out.write("</html>");
     } catch (Throwable t) {

@@ -10,6 +10,10 @@
 	<body>
 		Greeting : ${msg}
 		<br/>
-		<iframe id="Botservice" src="https://webchat.botframework.com/embed/BrIAnsaveBotQnA?s=pxLDKy-qai0.cwA.djw.-jxWojWVoMgjuIXc7mkKsHmnfCgEy4eha-olUSqA7IQ" height="500" width="500"></iframe>
+		<iframe id="Botservice" src="${secret}" height="500" width="500"></iframe>
+		<br/>
+		<img style="-webkit-user-select: none;" src="${img}">
+		<br/>
+		Face detection result: ${faceDetectionResult}
 	</body>
 </html>
